@@ -1,0 +1,68 @@
+.text-black {
+    color: #000;
+   
+}
+
+.row {
+    display: flex;
+    align-items: center;
+  }
+
+  .navlink-hover:hover,
+  .contact-us-btn:hover {
+    background-color: black;
+    color: white;
+    outline: 2px solid white;
+  }
+  
+  .contact-us-btn {
+    color: #000;
+    border-radius: 20px;
+    background-color: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border: none;
+    cursor: pointer;
+    padding: 16px 24px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+
+.about-section {
+    display: flex;
+    
+    gap: 50px;
+    align-items: center;
+    padding: 80px;
+    background-color: #000;
+    color: #ffffff;
+  }
+  
+  .about-text {
+    padding: 20px; 
+    line-height: 2;
+  }
+  
+  
+  .image-slider img {
+    display: none; 
+    width: 500px;
+    border-radius: 20px 10px 20px 10px;
+  }
+  
+  .image-slider img.active {
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .about-section {
+      grid-template-columns: 1fr;
+    }
+    
+    .about-img {
+      order: -1;
+    }
+    
+    .about-text {
+      padding-right: 0;
+      text-align: center;
+    }
+  }

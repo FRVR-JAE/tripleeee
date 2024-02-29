@@ -1,0 +1,29 @@
+.ft-bg {
+    background-color: black;
+    padding: 30px;
+}
+
+.footer{
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+}
+
+.animate-e .e {
+    animation: animate-e 2s ease-in-out infinite;
+  }
+  
+  @keyframes animate-e {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+  }
