@@ -53,6 +53,7 @@
   .image-slider img {
     display: none; 
     width: 500px;
+    margin-left: 20px;
     border-radius: 20px 10px 20px 10px;
   }
   
