@@ -59,8 +59,7 @@
         background-size: cover;
         background-position: center;
         opacity: 0.9;
-        
-        min-height: 70vh;
+        min-height: 50vh;
       
       }
 
@@ -75,15 +74,14 @@
     
 
     .service-box {
-        
-      width: 70%;
-      padding: 20px; /* Adjusted width for larger screens with margin */
-      margin-right: 1%; /* Add margin between boxes */
+      width: 40%; /* Set width to 100% for smaller screens */
+    padding: 20px;
+    margin-bottom: 20px;
     }
 
     .services-section h2 {
         font-size: 50px;
-        margin-top: 20;
+        margin-top: 50;
         margin-bottom: 10px;
         text-align: center;
         padding-top: 40px;
@@ -92,6 +90,7 @@
   
     .service-box p {
         font-size: 20px;
+        margin-left: 10px;
         }
   }
   
@@ -99,3 +98,29 @@
     transform: translateY(-5px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   }
+
+  @media screen and (min-width: 1440px) {
+    .services-section {
+      min-height: 50vh; /* Increase the minimum height */
+    }
+  
+    .services-grid {
+      padding-top: 80px; /* Increase the padding */
+    }
+  
+    .service-box {
+      width: 30%; /* Adjusted width for larger screens */
+      margin: 20px; /* Add margin between boxes */
+    }
+  
+    .services-section h2 {
+      font-size: 60px; /* Increase the font size */
+      padding-top: 160px;
+    }
+  
+    .service-box p {
+      font-size: 24px; /* Increase the font size */
+    }
+  }
+  
+  
