@@ -19,29 +19,25 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      name: 'John Doe',
+      name: 'Jerry alani',
       
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
+      text: 'Triple EEE Catering and Events exceeded our expectations! The attention to detail and culinary expertise made our event truly special. Theyre dedication and professionalism made a lasting impression.',
     },
     {
-      name: 'Jane Doe',
-      
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
+      name: 'Belinda Smith',
+      text: 'We couldn\'t have asked for a better catering and event planning partner than Triple EEE. From the initial consultation to the flawless execution, they ensured every moment was memorable. Highly recommended!',
     },
     {
-      name: 'Bob Smith',
-      
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
+      name: 'Catherine Simmons',
+      text: 'Triple EEE delivered an exceptional experience for our corporate event. The menu selection was diverse, and the service impeccable. Our guests are still raving about the wonderful atmosphere they created.',
     },
     {
-      name: 'Alice Johnson',
-      
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
+      name: 'David Martinez',
+      text: 'Working with Triple EEE was a pleasure. The teams creativity, professionalism, and commitment to excellence made our wedding day truly magical. Thank you for making our dreams come true!',
     },
     {
-        name: 'Alice Johnson',
-        
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
+      name: 'Alexandra Reynolds',
+      text: 'Triple EEE Catering and Events stands out for its unmatched quality and service. From intimate gatherings to grand celebrations, they bring a touch of elegance and sophistication. Truly top-notch!',
       },
   ]
 

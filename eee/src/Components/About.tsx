@@ -9,9 +9,8 @@ const About = () => {
         <div className="row">
           <div className="about-text">
             <h2>Our Story</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              eleifend lacus ut massa efficitur, eget maximus ligula finibus.
+            <p className="about-text-p">
+            Welcome to Triple EEE Catering and Events, where culinary artistry meets seamless event execution. Our dedicated team crafts unforgettable experiences, meticulously planning every detail and serving exquisite cuisine. Elevate your events with us, and let's turn your vision into a masterpiece.
             </p>
             <button className="contact-us-btn navlink-hover">
               {" "}

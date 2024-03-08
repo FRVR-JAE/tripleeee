@@ -1,7 +1,4 @@
-.text-black {
-    color: #000;
-   
-}
+
 
 .row {
     display: flex;
@@ -73,11 +70,6 @@
       padding-right: 0;
       text-align: center;
     }
-
-
-
-
-
 .row {
     display: flex;
     flex-direction: column; /* Adjusted for smaller screens */
@@ -120,6 +112,10 @@
     padding: 20px;
     line-height: 2;
     text-align: center; /* Center text for smaller screens */
+}
+
+.about-text-p {
+  font-size: 15px;
 }
 
 .image-slider img {
