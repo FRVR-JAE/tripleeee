@@ -76,6 +76,7 @@
 .navbar-item:hover {
     background-color: #ffff;
     color: #000000;
+    border-radius: 20px 20px ;
   }
   
   .sidebar-close {
@@ -124,7 +125,7 @@
     top: 1rem;
     right: 1rem;
     display: block;
-    color: #fff;
+    color: #e75959;
   }
   .navbar-shadow {
     display: none;
